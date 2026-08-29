@@ -100,12 +100,12 @@ LANGCHAIN_PROJECT=novel-gen-pipeline
 
 Model and retry settings live in `config.py`:
 
-| Setting | Default | Purpose |
-|---|---|---|
-| `GEMINI_HEAVY_MODEL` | `gemini-3.5-flash` | Used for prose drafting (higher temperature) |
-| `GEMINI_LIGHT_MODEL` | `gemini-3.5-flash-lite` | Used for planning, critique, and canon checks |
-| `MAX_RETRIES` | `3` | Max automatic writer→critic→canon_guard cycles before forcing a human checkpoint |
-| `LLM_MAX_RETRIES` | `6` | Internal LangChain-level retry count per LLM call |
+| Setting              | Default                 | Purpose                                                                          |
+| -------------------- | ----------------------- | -------------------------------------------------------------------------------- |
+| `GEMINI_HEAVY_MODEL` | `gemini-3.5-flash`      | Used for prose drafting (higher temperature)                                     |
+| `GEMINI_LIGHT_MODEL` | `gemini-3.5-flash-lite` | Used for planning, critique, and canon checks                                    |
+| `MAX_RETRIES`        | `3`                     | Max automatic writer→critic→canon_guard cycles before forcing a human checkpoint |
+| `LLM_MAX_RETRIES`    | `6`                     | Internal LangChain-level retry count per LLM call                                |
 
 ## Writing an outline
 
@@ -147,7 +147,3 @@ Set `LANGCHAIN_TRACING_V2=true` and your `LANGCHAIN_API_KEY` in `.env`, then run
 - `db.py`'s `CanonDatabase` stores character data to SQLite as an audit log, but nothing in the pipeline reads from it at runtime — all canon data is pulled live from `outline.json` via the in-memory state instead.
 - Explicit sexual content is likely to be filtered or refused by the underlying model regardless of safety-threshold configuration; graphic violence and dark themes are generally fine.
 - `critic`/`canon_guard` evaluate against the (English) outline data regardless of the prose language — for non-English output, spot-check their reasoning periodically.
-
-## License
-
-*(Add your chosen license here — e.g. MIT, Apache 2.0.)*
