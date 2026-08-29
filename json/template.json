@@ -1,0 +1,167 @@
+{
+  "title": "THE_NOVEL_TITLE",
+  "genre": {
+    "primary": "PRIMARY_GENRE",
+    "secondary": ["SUBGENRE_1", "SUBGENRE_2"]
+  },
+
+  "setting": {
+    "primary_location": "MAIN_LOCATION",
+    "primary_era": "TIME_PERIOD",
+    "secondary_locations": [
+      "LOCATION_1",
+      "LOCATION_2"
+    ],
+    "atmosphere": "KEY_SENSORY_AND_MOOD_DESCRIPTORS"
+  },
+
+  "premise": "ONE_TO_TWO_SENTENCE_HIGH_CONCEPT_SUMMARY",
+
+  "story_engine": {
+    "central_conflict": "THE_MAIN_CONFLICT_DRIVING_THE_NOVEL",
+    "protagonist_goal": "WHAT_THE_PROTAGONIST_WANTS",
+    "protagonist_need": "WHAT_THE_PROTAGONIST_ACTUALLY_NEEDS",
+    "central_stakes": "WHAT_WILL_BE_LOST_IF_THE_PROTAGONIST_FAILS",
+    "opposing_force": "PERSON_OR_FORCE_BLOCKING_THE_PROTAGONIST",
+    "core_question": "THE_MAIN_QUESTION_THE_STORY MUST ANSWER"
+  },
+
+  "canon_ledger": {
+    "core_truth": "THE_UNSHAKABLE_FACT_AT_THE_HEART_OF_THE_STORY",
+
+    "inciting_incident": "THE_EVENT_THAT_STARTS_THE_STORY",
+
+    "hidden_truth": "THE_IMPORTANT_TRUTH_REVEALED_LATER",
+
+    "major_reversals": [
+      "REVERSAL_OR_TWIST_1",
+      "REVERSAL_OR_TWIST_2",
+      "REVERSAL_OR_TWIST_3"
+    ],
+
+    "essential_facts": [
+      "FACT_THE_STORY_MUST_NOT_CONTRADICT_1",
+      "FACT_THE_STORY_MUST_NOT_CONTRADICT_2"
+    ],
+
+    "immutable_rules": [
+      "RULE_THE_AI_MUST_NEVER_BREAK_1",
+      "RULE_THE_AI_MUST_NEVER_BREAK_2"
+    ]
+  },
+
+  "characters": {
+    "CHARACTER_NAME": {
+      "role": "ROLE",
+      "traits": [
+        "TRAIT_1",
+        "TRAIT_2",
+        "TRAIT_3"
+      ],
+      "external_goal": "WHAT_THE_CHARACTER_WANTS",
+      "internal_need": "WHAT_THE_CHARACTER_NEEDS",
+      "fear": "WHAT_THE_CHARACTER_FEARS",
+      "secret": "WHAT_THE_CHARACTER_IS_HIDING",
+      "motivation": "WHY_THEY_ACT",
+      "character_arc": "HOW_THE_CHARACTER_CHANGES",
+      "relationships": {
+        "OTHER_CHARACTER": "NATURE_OF_RELATIONSHIP"
+      },
+      "key_quote_or_anchor": "OPTIONAL_PHILOSOPHY_OR_RECURRING_LINE"
+    }
+  },
+
+  "plot_structure": {
+    "act_1": {
+      "purpose": "ESTABLISHMENT_AND_INCITING_ACTION",
+      "turning_point": "FIRST_MAJOR_TURN"
+    },
+
+    "act_2": {
+      "purpose": "ESCALATION_AND_COMPLICATION",
+      "midpoint": "MAJOR_REVELATION_OR_REVERSAL",
+      "low_point": "MAJOR_SETBACK"
+    },
+
+    "act_3": {
+      "purpose": "CLIMAX_AND_RESOLUTION",
+      "climax": "FINAL_CONFRONTATION_OR_DECISION",
+      "resolution": "AFTERMATH"
+    }
+  },
+
+  "chapters": {
+    "1": {
+      "title": "CHAPTER_TITLE",
+      "purpose": "WHAT_THIS_CHAPTER ACCOMPLISHES",
+      "scenes": {
+        "1": {
+          "title": "SCENE_TITLE",
+          "brief": "SHORT_SCENE_SUMMARY",
+          "purpose": "WHY_THIS_SCENE_EXISTS",
+          "key_events": [
+            "CONCRETE_ACTION_BEAT_1",
+            "CONCRETE_ACTION_BEAT_2",
+            "CONCRETE_ACTION_BEAT_3"
+          ],
+          "character_change": "WHAT_CHANGES_FOR_THE_CHARACTER",
+          "new_information": "WHAT_THE_READER_LEARNS",
+          "cliffhanger_or_transition": "HOW_THE_SCENE_LEADS_FORWARD"
+        }
+      }
+    }
+  },
+
+  "prose_style": {
+    "pov": "POV_RULE",
+    "tense": "PAST_OR_PRESENT",
+    "tone": "TONE_AND_PACING",
+    "narrative_distance": "INTIMATE / MODERATE / DISTANT",
+    "language": "LANGUAGE",
+
+    "style_principles": [
+      "STYLE_RULE_1",
+      "STYLE_RULE_2",
+      "STYLE_RULE_3"
+    ],
+
+    "anchor_motifs": [
+      "MOTIF_1",
+      "MOTIF_2"
+    ],
+
+    "negative_constraints": [
+      "BANNED_TROPE_1",
+      "BANNED_PHRASE_OR_STYLE_2"
+    ]
+  },
+
+  "continuity": {
+    "timeline": [
+      "IMPORTANT_DATE_OR_SEQUENCE_1",
+      "IMPORTANT_DATE_OR_SEQUENCE_2"
+    ],
+    "locations": [
+      "LOCATION_FACT_1",
+      "LOCATION_FACT_2"
+    ],
+    "objects": [
+      "IMPORTANT_OBJECT_AND_ITS_STATE"
+    ],
+    "knowledge_state": {
+      "PROTAGONIST": [
+        "WHAT_THE_PROTAGONIST_KNOWS_AT_START"
+      ],
+      "ANTAGONIST": [
+        "WHAT_THE_ANTAGONIST_KNOWS"
+      ]
+    }
+  },
+
+  "ending": {
+    "emotional_note": "FINAL_EMOTIONAL_EFFECT",
+    "final_image": "LAST_VISUAL_OR_ACTION",
+    "theme": "CENTRAL_THEMATIC_STATEMENT",
+    "resolution_status": "FULL / PARTIAL / AMBIGUOUS / TRAGIC"
+  }
+}

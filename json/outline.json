@@ -1,0 +1,217 @@
+{
+  "title": "The Last Ledger",
+  "genre": {
+    "primary": "Literary Fiction",
+    "secondary": ["Slice of Life", "Family Drama"]
+  },
+
+  "setting": {
+    "primary_location": "A small, cluttered bookshop in Pondicherry, India",
+    "primary_era": "Present day",
+    "secondary_locations": [
+      "The shop's back room, full of old ledgers and boxes",
+      "The narrow street outside at dusk"
+    ],
+    "atmosphere": "Warm lamplight against the coming dark, dust motes drifting over worn shelves, the smell of old paper and sea air, quiet nostalgia edged with looming loss."
+  },
+
+  "premise": "On the final evening before her father's bookshop must close for good, Meera Iyer meets a quiet stranger searching for a decades-old ledger — and discovers a small act of kindness her father once recorded there, one that may be the only thing that can save the shop now.",
+
+  "story_engine": {
+    "central_conflict": "Meera must decide whether to let go of the last physical trace of her father's legacy in order to survive the night, or hold onto it and lose everything.",
+    "protagonist_goal": "Settle the shop's outstanding debt before the midnight deadline so the shop isn't seized.",
+    "protagonist_need": "Accept that her father's memory doesn't live in the shop's walls or the ledger's pages, but in the kindness he chose to act on.",
+    "central_stakes": "If she clings to the ledger out of sentiment, she loses the shop outright with nothing to show for it; if she lets a stranger take it from her too easily, she loses the last physical trace of her father.",
+    "opposing_force": "Her own grief and pride, sharpened by a collector's midnight deadline sitting on the counter.",
+    "core_question": "Can honoring the past mean letting go of it?"
+  },
+
+  "canon_ledger": {
+    "core_truth": "The 1998 ledger contains Meera's father's handwritten record of a family's debt marked 'forgiven, in full' — a quiet act of generosity he never spoke of to anyone.",
+
+    "inciting_incident": "A stranger, Arjun Menon, enters the shop an hour before its final closing, asking specifically whether any ledgers from the 1990s survive.",
+
+    "hidden_truth": "Arjun is the grown son of the family whose debt Meera's father quietly forgave in 1998 — and he has come to repay that kindness, not to buy anything.",
+
+    "major_reversals": [
+      "Arjun initially appears to be a bargain-hunter circling the shop's closing-down sale.",
+      "Meera assumes she will have to sell or surrender the ledger itself to satisfy her financial desperation, before realizing that isn't what Arjun wants at all.",
+      "The shop's apparent, inevitable closure turns into the possibility of it staying open — not through charity, but through the return of an old debt of kindness."
+    ],
+
+    "essential_facts": [
+      "The shop, Iyer & Sons Booksellers, has operated for over forty years.",
+      "Meera's father passed away eight months before the story begins.",
+      "A collector's notice on the counter gives Meera until midnight tonight to pay the shop's debt or vacate the premises.",
+      "The 1998 ledger contains a handwritten entry marking a family's debt as forgiven, beside a pressed flower."
+    ],
+
+    "immutable_rules": [
+      "Meera must not sell or trade away the ledger itself.",
+      "Arjun's connection to Meera's father must be revealed as an old act of quiet generosity, not coincidence or charity offered out of pity.",
+      "No supernatural or magical elements of any kind.",
+      "The story must not resolve through a random, unrelated stroke of luck (e.g., a lottery win, an unrelated buyer) — the resolution must come specifically from what is written in the ledger."
+    ]
+  },
+
+  "characters": {
+    "Meera Iyer": {
+      "role": "Protagonist / shop owner",
+      "traits": ["Guarded", "Meticulous", "Quietly grieving", "Proud"],
+      "external_goal": "Settle the shop's debt before the midnight deadline.",
+      "internal_need": "Learn that her father's legacy lives in the kindness he chose to act on, not in the shop or the ledger as physical objects.",
+      "fear": "That closing the shop erases the last visible trace of her father's life.",
+      "secret": "She has already quietly accepted the shop's fate and is going through tonight's motions out of duty to her father, not real hope.",
+      "motivation": "Love for her father, and a stubborn refusal to let his life's work disappear without a fight.",
+      "character_arc": "Moves from treating the shop and the ledger as identical to her father's memory, to understanding that the memory survives through what is passed on, not what is kept.",
+      "relationships": {
+        "Arjun Menon": "A stranger who turns out to be tied to her father's past in a way she never knew."
+      },
+      "key_quote_or_anchor": "A shop is just wood and paper, Baba used to say. It's what's written inside that keeps a family alive."
+    },
+
+    "Arjun Menon": {
+      "role": "Visitor / catalyst",
+      "traits": ["Soft-spoken", "Observant", "Carries quiet gratitude"],
+      "external_goal": "Find the specific 1998 ledger entry concerning his father.",
+      "internal_need": "Properly repay a debt of kindness he never got the chance to thank Meera's father for while he was alive.",
+      "fear": "That he has arrived too late to ever say thank you.",
+      "secret": "He intends to personally settle the shop's outstanding debt tonight, without asking for anything in return.",
+      "motivation": "Gratitude toward Meera's father, who quietly kept his family from ruin decades ago.",
+      "character_arc": "Arrives as an unreadable stranger and is revealed as someone returning an old, unspoken debt.",
+      "relationships": {
+        "Meera Iyer": "The daughter of the man who once quietly saved his family."
+      },
+      "key_quote_or_anchor": "Some debts aren't written in rupees."
+    }
+  },
+
+  "plot_structure": {
+    "act_1": {
+      "purpose": "Establish the closing shop, Meera's grief and financial desperation, and the arrival of a stranger with an unusual, specific request.",
+      "turning_point": "Arjun asks specifically whether a ledger from 1998 has survived."
+    },
+
+    "act_2": {
+      "purpose": "Reveal that Arjun isn't there to buy anything, and build the tension between Meera's suspicion and his quiet persistence.",
+      "midpoint": "Meera realizes Arjun isn't a bargain-hunter — he's searching for one specific, personal entry.",
+      "low_point": "Meera nearly refuses to let him see the ledger at all, assuming he means to use whatever he finds to pressure her into a cheap sale."
+    },
+
+    "act_3": {
+      "purpose": "Resolve the debt crisis and complete Meera's emotional arc through what the ledger reveals.",
+      "climax": "Arjun reveals his father's debt was forgiven by Meera's father in 1998, and offers to settle the shop's debt tonight as repayment, not charity.",
+      "resolution": "Meera accepts, understanding the shop's true legacy was never the building — it was the kindness recorded inside it."
+    }
+  },
+
+  "chapters": {
+    "1": {
+      "title": "The Last Ledger",
+      "purpose": "Introduce the closing bookshop and Meera's grief, bring in Arjun's mysterious request, reveal the hidden 1998 kindness, and resolve the shop's fate in a way that honors rather than erases her father's memory.",
+
+      "scenes": {
+        "1": {
+          "title": "Closing Time",
+          "brief": "On the shop's final evening, Meera is tallying the last day's meager sales against a midnight debt deadline when a stranger, Arjun, enters asking about ledgers from the 1990s.",
+          "purpose": "Establish the setting, Meera's grief and desperation, and introduce Arjun's unusual request.",
+          "key_events": [
+            "Meera sits alone in the dimly lit shop, tallying the day's sales against what she owes.",
+            "A collector's notice on the counter gives her until midnight to pay or vacate the shop.",
+            "Arjun enters just before closing and asks whether any ledgers from the 1990s survive.",
+            "Meera assumes he's a bargain-hunter circling the shop's closing-down sale and grows guarded.",
+            "Arjun's careful, searching manner suggests he isn't here for a discount on old books.",
+            "Meera reluctantly agrees to look for the 1998 ledger, mentioning it was her father's personal record book and isn't for sale."
+          ],
+          "character_change": "Meera moves from numb resignation to a flicker of wary curiosity.",
+          "new_information": "The shop faces a midnight deadline; a stranger is specifically searching for a personal ledger from 1998.",
+          "cliffhanger_or_transition": "Meera disappears into the back room to search for the ledger, leaving Arjun waiting among the darkened shelves."
+        },
+
+        "2": {
+          "title": "What Was Written",
+          "brief": "Meera finds the 1998 ledger and discovers an entry connected to Arjun's family; he reveals why he has really come, and offers to help save the shop.",
+          "purpose": "Reveal the hidden truth, resolve the central conflict, and complete Meera's emotional arc.",
+          "key_events": [
+            "Meera finds the worn ledger and a page marked with a pressed flower, dated 1998.",
+            "She reads her father's handwriting: an entry recording a family's debt marked 'forgiven, in full.'",
+            "Arjun quietly confirms the name beside the entry is his father, who was too proud to ever properly thank Meera's father.",
+            "Arjun explains he has spent years searching secondhand shops for any trace of that kindness, and finally traced it here.",
+            "He offers to personally settle the shop's outstanding debt tonight — not as charity, but as repayment of an old, unspoken debt.",
+            "Meera initially resists, unwilling to accept what feels like pity.",
+            "Arjun reframes it: it isn't pity, it's the same kindness her father once gave, returning to her.",
+            "Meera accepts, and gently places the pressed flower back in the ledger before closing it."
+          ],
+          "character_change": "Meera moves from viewing the shop's survival as impossible and the ledger as a relic of loss, to understanding both as living evidence of a legacy that can continue.",
+          "new_information": "Arjun's father was quietly saved from ruin by Meera's father decades ago; Arjun has come specifically to repay that debt.",
+          "cliffhanger_or_transition": "The story ends as Meera turns the shop's sign from 'Closed' to a handwritten 'Open, always' and switches the lamps back on."
+        }
+      }
+    }
+  },
+
+  "prose_style": {
+    "pov": "Third Person Limited, anchored to Meera Iyer",
+    "tense": "Past",
+    "tone": "Warm, quiet, reflective, gently melancholic turning hopeful",
+    "narrative_distance": "Intimate",
+    "language": "Bengali",
+
+    "style_principles": [
+      "Keep sensory detail sparse and purposeful — the shop's dust, lamplight, and paper should ground the mood without overwhelming it.",
+      "Let dialogue carry emotional weight rather than narration explaining feelings directly.",
+      "Favor understatement over sentimentality, especially at the emotional turning point.",
+      "Vary sentence length — short, plain sentences at moments of realization or emotion."
+    ],
+
+    "anchor_motifs": [
+      "The ledger and its handwriting",
+      "Lamplight against the coming dark",
+      "The pressed flower marking a forgiven debt"
+    ],
+
+    "negative_constraints": [
+      "Do not make Arjun's offer feel transactional or like a business negotiation.",
+      "Avoid melodrama or extended crying scenes.",
+      "Do not resolve the shop's fate through coincidence unrelated to the father's past kindness.",
+      "Avoid purple prose and over-long description.",
+      "Do not introduce named characters beyond Meera and Arjun."
+    ]
+  },
+
+  "continuity": {
+    "timeline": [
+      "1998: Meera's father forgives a struggling family's debt, recording it quietly in the ledger.",
+      "8 months before the story begins: Meera's father passes away.",
+      "Tonight: the shop's final night unless its debt is paid by midnight."
+    ],
+    "locations": [
+      "The shop, Iyer & Sons Booksellers, is small and cluttered, and has operated for over forty years.",
+      "The back room holds boxes of old ledgers and family papers."
+    ],
+    "objects": [
+      "The 1998 ledger: contains a handwritten record of a family's debt marked 'forgiven, in full.'",
+      "A pressed flower marking the relevant page.",
+      "The collector's notice on the counter, giving a midnight deadline."
+    ],
+    "knowledge_state": {
+      "Meera Iyer": [
+        "Knows the shop faces closure by midnight.",
+        "Does not initially know why Arjun is searching for the 1998 ledger.",
+        "Discovers her father's history of quiet generosity by the end of the story."
+      ],
+      "Arjun Menon": [
+        "Knows his father's debt was forgiven by Meera's father in 1998.",
+        "Knows he has come to repay that kindness.",
+        "Does not know how Meera will react to his offer until she accepts it."
+      ]
+    }
+  },
+
+  "ending": {
+    "emotional_note": "Warm and quietly moving, hopeful without becoming saccharine.",
+    "final_image": "Meera switching the shop's lamps back on and turning the sign to read 'Open, always.'",
+    "theme": "A kindness recorded quietly can return, unasked, to save what it once helped keep alive.",
+    "resolution_status": "FULL"
+  }
+}
