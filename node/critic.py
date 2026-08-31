@@ -1,3 +1,5 @@
+#critic.py
+
 from pydantic import BaseModel, Field
 from config import get_llm, safe_invoke
 from prompts.critic import CRITIC_PROMPT

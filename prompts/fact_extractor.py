@@ -1,11 +1,8 @@
-FACT_EXTRACTOR_PROMPT = """Read the scene draft below and extract any NEW continuity facts it establishes: object state changes, character knowledge changes, location facts, or timeline events.
-Only list facts that are genuinely NEW — not already covered in the existing continuity ledger. If nothing new was established, return an empty list.
-
-Existing Continuity Ledger:
-{existing_ledger}
+FACT_EXTRACTOR_PROMPT = """Read the scene draft below and extract any NEW facts established about specific entities (Characters, Locations, Objects). 
+Only list facts that fundamentally change an entity's physical state, acquired knowledge, or location.
 
 Scene Draft:
 {draft}
 
-Return a structured JSON list of new_facts (short, single-sentence facts, present tense).
+Return a structured JSON list of updates. If nothing new was established, return an empty list.
 """

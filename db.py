@@ -1,6 +1,6 @@
 import sqlite3
 import json
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 class CanonDatabase:
     def __init__(self, db_path: str = "canon_store.db"):
@@ -11,30 +11,41 @@ class CanonDatabase:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
             cursor.execute("""
-                CREATE TABLE IF NOT EXISTS characters (
+                CREATE TABLE IF NOT EXISTS entities (
                     name TEXT PRIMARY KEY,
-                    details JSON
+                    category TEXT,
+                    state_data JSON
                 )
             """)
             conn.commit()
 
-    def set_character(self, name: str, data: Dict[str, Any]):
-        with sqlite3.connect(self.db_path) as conn:
-            conn.execute(
-                "INSERT OR REPLACE INTO characters (name, details) VALUES (?, ?)",
-                (name, json.dumps(data))
-            )
-            conn.commit()  # NOTE: original code never committed this insert
-
-    def get_character(self, name: str) -> Optional[Dict[str, Any]]:
+    def upsert_entity(self, name: str, category: str, new_facts: List[str]):
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT details FROM characters WHERE name = ?", (name,))
+            cursor.execute("SELECT state_data FROM entities WHERE name = ?", (name,))
             row = cursor.fetchone()
-            return json.loads(row[0]) if row else None
+            
+            existing_facts = json.loads(row[0]) if row else []
+            # Merge new facts, avoiding duplicates
+            for fact in new_facts:
+                if fact not in existing_facts:
+                    existing_facts.append(fact)
 
-    def get_all_characters(self) -> Dict[str, Dict[str, Any]]:
+            conn.execute(
+                "INSERT OR REPLACE INTO entities (name, category, state_data) VALUES (?, ?, ?)",
+                (name, category, json.dumps(existing_facts))
+            )
+            conn.commit()
+
+    def get_entity(self, name: str) -> Optional[Dict[str, Any]]:
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            cursor.execute("SELECT name, details FROM characters")
-            return {name: json.loads(details) for name, details in cursor.fetchall()}
+            cursor.execute("SELECT category, state_data FROM entities WHERE name = ?", (name,))
+            row = cursor.fetchone()
+            return {"category": row[0], "facts": json.loads(row[1])} if row else None
+
+    def get_all_entity_names(self) -> List[str]:
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT name FROM entities")
+            return [row[0] for row in cursor.fetchall()]

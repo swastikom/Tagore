@@ -1,6 +1,19 @@
 from typing import TypedDict, List, Dict, Any, Optional
 
 class NovelState(TypedDict):
+    # --- Phase 1: Bible Generation ---
+    story_idea: str
+    bible: Dict[str, Any]
+    bible_approved: bool
+    bible_revision_notes: Optional[str]
+
+    # --- Phase 2: Act-by-Act Outlining ---
+    current_planning_act: int
+    drafted_chapters: Dict[str, Any]
+    chapters_approved: bool
+    chapters_revision_notes: Optional[str]
+
+    # --- Phase 3: Drafting ---
     master_outline: Dict[str, Any]
     novel_title: str
     genre: str
@@ -10,9 +23,8 @@ class NovelState(TypedDict):
     total_chapters: int
     scene_plan: Optional[Dict[str, Any]]
     rolling_context: List[str]
-    recent_scene_texts: List[str]      # NEW: last few FULL drafts, for writer continuity
-    continuity_ledger: List[str]       # NEW: facts extracted from approved scenes, grows over time
-    flagged_scenes: List[Dict[str, Any]]  # NEW: scenes force-advanced without passing checks
+    recent_scene_texts: List[str] 
+    flagged_scenes: List[Dict[str, Any]] 
     retrieved_context: str
     current_draft: str
     critic_scores: Dict[str, float]
