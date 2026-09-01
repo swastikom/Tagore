@@ -1,5 +1,5 @@
-from config import get_llm
-from state import StoryState, CharactersOutput
+from agent.config import get_llm
+from agent.state import StoryState, CharactersOutput
 from prompts.templates import CHARACTER_PROMPT
 from langchain_core.prompts import PromptTemplate
 

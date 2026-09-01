@@ -1,5 +1,5 @@
-from config import get_llm
-from state import StoryState, PlotOutput
+from agent.config import get_llm
+from agent.state import StoryState, PlotOutput
 from prompts.templates import PLOT_PROMPT
 from langchain_core.prompts import PromptTemplate
 

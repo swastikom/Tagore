@@ -1,5 +1,5 @@
-from config import get_llm
-from state import StoryState, ReviewOutput
+from agent.config import get_llm
+from agent.state import StoryState, ReviewOutput
 from langchain_core.prompts import PromptTemplate
 
 # FIXED: Added the closing triple quotes at the end of this string

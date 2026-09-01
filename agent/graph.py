@@ -1,14 +1,14 @@
 import sqlite3
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.sqlite import SqliteSaver
-from state import NovelState
-from node.planner import scene_planner_node
-from node.writer import writer_agent_node
-from node.critic import critic_agent_node
-from node.canon_guard import canon_guard_node
-from node.manager import manager_agent_node
-from node.human_checkpoint import human_checkpoint_node
-from config import MAX_RETRIES
+from agent.state import NovelState
+from agent.node.planner import scene_planner_node
+from agent.node.writer import writer_agent_node
+from agent.node.critic import critic_agent_node
+from agent.node.canon_guard import canon_guard_node
+from agent.node.manager import manager_agent_node
+from agent.node.human_checkpoint import human_checkpoint_node
+from agent.config import MAX_RETRIES
 
 def route_critic(state: NovelState) -> str:
     if state.get("passed_critic") and state.get("passed_canon"):

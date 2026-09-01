@@ -1,5 +1,5 @@
-from config import get_llm
-from state import StoryState, StyleOutput
+from agent.config import get_llm
+from agent.state import StoryState, StyleOutput
 from prompts.templates import STYLE_PROMPT
 from langchain_core.prompts import PromptTemplate
 

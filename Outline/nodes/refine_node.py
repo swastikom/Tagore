@@ -1,7 +1,7 @@
 from typing import Dict
 from pydantic import BaseModel
-from config import get_llm
-from state import (
+from agent.config import get_llm
+from agent.state import (
     StoryState, 
     Character, 
     PlotStructure, 

@@ -1,5 +1,5 @@
-from config import get_llm
-from state import StoryState, CanonOutput
+from agent.config import get_llm
+from agent.state import StoryState, CanonOutput
 from prompts.templates import CANON_PROMPT
 from langchain_core.prompts import PromptTemplate
 

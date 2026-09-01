@@ -1,6 +1,6 @@
 import json
 from langgraph.graph import StateGraph, START, END
-from state import StoryState
+from agent.state import StoryState
 
 # Import generative nodes
 from nodes.concept_node import generate_concept
