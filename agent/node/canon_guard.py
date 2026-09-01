@@ -1,8 +1,8 @@
 from typing import Dict, Any, List
 from pydantic import BaseModel, Field
-from config import get_llm
-from prompts.canon_guard import CANON_GUARD_PROMPT
-from state import NovelState
+from agent.config import get_llm
+from agent.prompts.canon_guard import CANON_GUARD_PROMPT
+from agent.state import NovelState
 
 class CanonCheckResult(BaseModel):
     passed: bool = Field(description="True if the draft complies with all canon rules and negative constraints.")

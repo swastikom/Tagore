@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
-from config import get_llm, safe_invoke
-from prompts.critic import CRITIC_PROMPT
-from state import NovelState
+from agent.config import get_llm, safe_invoke
+from agent.prompts.critic import CRITIC_PROMPT
+from agent.state import NovelState
 from typing import Dict, Any
 
 class CriticEvaluation(BaseModel):

@@ -1,0 +1,22 @@
+{
+  "chapters": {
+    "1": {
+      "scenes": {
+        "1": {
+          "scene_outline": [
+            "Detective Silas Voss searches an abandoned clock tower and discovers an encrypted brass cylinder concealed inside a grandfather clock.",
+            "He activates the cylinder's interface, revealing a holographic ledger containing names of corrupt city magistrates.",
+            "The tower's surveillance alarm trips, signaling that an enforcer patrol has surrounded the perimeter."
+          ]
+        },
+        "2": {
+          "scene_outline": [
+            "Silas rappels down the exterior clock face into the rainy alleyways below.",
+            "He is ambushed by a pair of armed enforcers and forced into a shootout behind a steam-vent barricade.",
+            "Silas disables the enforcers and slips into the lower transit tunnels, noticing the cylinder has started a 24-hour self-destruct countdown."
+          ]
+        }
+      }
+    }
+  }
+}

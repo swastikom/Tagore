@@ -1,8 +1,8 @@
 from typing import Dict, Any, List
 from pydantic import BaseModel, Field
-from config import get_llm, safe_invoke
-from prompts.fact_extractor import FACT_EXTRACTOR_PROMPT
-from state import NovelState
+from agent.config import get_llm, safe_invoke
+from agent.prompts.fact_extractor import FACT_EXTRACTOR_PROMPT
+from agent.state import NovelState
 
 class ContinuityUpdate(BaseModel):
     new_facts: List[str] = Field(default_factory=list, description="New continuity facts established in this scene.")

@@ -1,7 +1,7 @@
 from typing import Dict, Any
-from config import get_llm, safe_invoke
-from prompts.writer import WRITER_PROMPT
-from state import NovelState
+from agent.config import get_llm, safe_invoke
+from agent.prompts.writer import WRITER_PROMPT
+from agent.state import NovelState
 
 llm = get_llm(heavy=True)
 

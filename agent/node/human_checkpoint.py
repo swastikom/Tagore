@@ -1,5 +1,5 @@
 from typing import Dict, Any
-from state import NovelState
+from agent.state import NovelState
 
 def human_checkpoint_node(state: NovelState) -> Dict[str, Any]:
     # Pass-through node. Execution actually pauses HERE because graph.py compiles
